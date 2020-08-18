@@ -17,7 +17,7 @@ class CarRental:
         else:
             present=datetime.datetime.now()
             print("You rented {} cars today for hourly basis".format(n,present.hour))
-            print("As you ranted {} cars today on hourly basis the cost per hour will be Rs.{} per car".format(n,500))
+            print("As you rented {} cars today on hourly basis the cost per hour will be Rs.{} per car".format(n,500))
             print("We hope you enjoy our service...")
 
             self.garage-=n
@@ -30,8 +30,8 @@ class CarRental:
             return None
         else:
             present = datetime.datetime.now()
-            print("You rented {} cars today on hourly basis".format(n, present.hour))
-            print("As you ranted {} cars today on hourly basis the cost per hour will be Rs.{} per car".format(n, 2000))
+            print("You rented {} cars today on daily basis".format(n, present.hour))
+            print("As you rented {} cars today on hourly basis the cost per hour will be Rs.{} per car".format(n, 2000))
             print("We hope you enjoy our service...")
 
             self.garage -= n
@@ -44,8 +44,8 @@ class CarRental:
             return None
         else:
             present = datetime.datetime.now()
-            print("You rented {} cars today on hourly basis".format(n, present.hour))
-            print("As you ranted {} cars today on hourly basis the cost per hour will be Rs.{} per car".format(n, 7000))
+            print("You rented {} cars today on weekly basis".format(n, present.hour))
+            print("As you rented {} cars today on hourly basis the cost per hour will be Rs.{} per car".format(n, 7000))
             print("We hope you enjoy our service...")
 
             self.garage -= n
@@ -58,8 +58,8 @@ class CarRental:
             return None
         else:
             present = datetime.datetime.now()
-            print("You rented {} cars today on hourly basis".format(n, present.hour))
-            print("As you ranted {} cars today on hourly basis the cost per hour will be Rs.{} per car".format(n, 17500))
+            print("You rented {} cars today on monthly basis".format(n, present.hour))
+            print("As you rented {} cars today on hourly basis the cost per hour will be Rs.{} per car".format(n, 17500))
             print("We hope you enjoy our service...")
 
             self.garage -= n
